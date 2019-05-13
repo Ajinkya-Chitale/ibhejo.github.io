@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+.headertop{
+	background-color: rgb(23,60,131);
+	color: #fff;
+	box-sizing: border-box;
+	padding: 8px 0px 0px 0px;
+	font-size: 14px;
+}
+.headertop ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.headermid{
+	padding: 20px 0px;
+}
+#basic-text1{
+	background-color: rgb(23,60,131);
+	color: #fff;
+	width: 60px;
+	font-size: 20px;
+}
+.headermid input{
+	height: 50px;
+}
+.fa-search{
+	padding: 0px 10px;
+}
+.cartsec{
+	font-size: 13px;
+	padding-top: 13px;
+}
+.cartsec i{
+	margin-left: 0px;
+	margin-right: 4px;
+}
+.header-bottom{
+	background-color: rgb(242,242,242);
+	color: #000;
+}
+.header-bottom button{
+	background-color: #0E0E0E;
+}
+#login{
+	color:black !important;
+	font-size: 13px;
+}
+.dropdown:hover>.dropdown-menu{
+	display: block;
+}
+.dropdown:hover{
+	background-color: rgb(23,60,131);
+}
+.dropdown .nav-link:hover{
+	color: #fff !important;
+}
+.carouselsec{
+	padding: 55px 0px;
+}
+.shopbybrand h2{
+	padding-bottom: 20px;
+}
+.topseller h2{
+	padding: 20px 0px;
+}
+.shopbybrand img{
+	padding: 10px 0px;
+}
+.topseller{
+	padding: 20px 0px;
+}
+.topseller h2{
+	padding-bottom: 35px;
+}
+.sideimg img:first-child{
+	padding-bottom: 52px;
+}
+.shopbycat h2{
+	padding-bottom: 40px;
+}
+.shopbycat{
+	padding-bottom: 30px;
+}
+.shopbycat p{
+	color: #000;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+footer{
+	background-color: #000;
+	color: #BBBBBB;
+}
+footer #forfooter{
+	margin: 3% 0 4% 0;
+}
+footer h6{
+	font-size: 14px;
+/*	margin-bottom: 20px;*/
+	margin-top: 40px;
+	padding-bottom: 8px;
+	
+}
+#space{
+	margin-right: 3%;
+}
+#about li a{
+	text-decoration: none;
+	color: #ccc;
+	font-size: 13px;
+}
+.footermid li a{
+	text-decoration: none;
+	color: #ccc;
+	font-size: 12px;
+}
+.copyright{
+	padding-bottom: 10px;
+}
+.paymentinfo li{
+	background-color: white;
+	margin-top: 5px;
+}
+.paymentinfo li a img{
+	height: 20px;
+	width: 30px;
+	
+}
+.copyright p{
+	font-size: 12px;
+}
+.modal-body form label{
+	font-size: 20px;
+}
+@media only screen and (min-width: 320px) and (max-width: 575px){
+	.sideimg img:first-child{
+		padding-bottom: 0px;
+		
+	}
+	.sideimg div{
+		padding: 15px 0px !important;
+	}
+	.sideimg div img{
+		width: 515px;
+	}
+} 
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+	.sideimg img:first-child{
+		padding-bottom: 45px;
+	}
+} 
